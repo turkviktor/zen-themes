@@ -12,3 +12,4 @@
 | browser.tabs.insertAfterCurrent  | true  |
 | browser.tabs.insertRelatedAfterCurrent  | true |
 |zen.theme.gradient  | false |
+| zen.workspaces.show-workspace-indicator | false |

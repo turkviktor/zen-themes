@@ -11,5 +11,22 @@
 | ------------- | ------------- |
 | browser.tabs.insertAfterCurrent  | true  |
 | browser.tabs.insertRelatedAfterCurrent  | true |
+| browser.tabs.hoverPreview.enabled | true |
 |zen.theme.gradient  | false |
 | zen.workspaces.show-workspace-indicator | false |
+
+## Zen Mods
+- Download BG
+- Better Active Tab
+- SuperPins
+- No Search Shortcut Icons
+- Better Spacing
+- Better CtrlTab Panel
+- Back Fwd Always Hidden
+- Disable Status Bar
+- NoHighlightSplit
+- Cleaned URL bar
+- NavBar Margin
+- Better Unloaded Tabs
+- Tab Preview Enhanced
+

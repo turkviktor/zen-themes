@@ -1,0 +1,93 @@
+:root {
+  --browser-color: #1f1f1f;
+}
+
+/* browser color */
+#nav-bar,
+#urlbar-background,
+#zen-sidebar-web-panel {
+  background-color: var(--browser-color) !important;
+}
+
+panel {
+  --panel-background: var(--browser-color) !important;
+}
+
+#browser {
+  background-image: none !important;
+  background-color: var(--browser-color) !important;
+  opacity: 1 !important;
+}
+
+
+
+#zen-sidebar-web-panel {
+  border: none !important;
+  box-shadow: 0 0 1px 1px light-dark(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
+}
+
+#zen-sidebar-web-header,
+#zen-sidebar-panels-wrapper {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
+#titlebar {
+  background: var(--browser-color) !important;
+}
+
+/* tab groups */
+#tabs-newtab-button .toolbarbutton-icon {
+  display: none !important;
+}
+
+
+.tab-group-label,
+tab-group .tab-group-label {
+  width: 100% !important;
+  border-radius: 1em !important;
+  outline: none !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+  padding-left: 10px !important;
+  border: 2px solid var(--tab-group-color) !important;
+  background: color-mix(in srgb, var(--tab-group-color) 15%, transparent) !important;
+  color: color-mix(in srgb, var(--tab-group-color) 60%, #fff) !important;
+  scale: 1 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+tab-group .tab-group-label:active {
+  scale: 0.9 !important;
+}
+
+
+.tab-group-label-container {
+  margin-top: 3px !important;
+  margin-left: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+tab-group[collapsed] .tab-group-label-container {
+  margin-bottom: 3px !important;
+}
+
+.tab-group-label-container::after {
+  display: none !important;
+}
+
+tab-group .tab-stack {
+  transition: all 0.3s ease-in-out !important;
+  border-radius: 1.2em !important;
+  background: color-mix(in srgb,
+      var(--tab-group-color) 15%,
+      transparent) !important;
+  margin-block: 2px !important;
+  margin-left: 15px !important;
+  color: #ddd !important;
+}
+
+
+tab-group .tabbrowser-tab::before {
+  display: none !important;
+}
